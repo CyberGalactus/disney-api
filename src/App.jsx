@@ -45,33 +45,7 @@ function App() {
   </div>
 )
 }
-//     <div className="App">
-//       <h1>Disney API</h1>
-//       <button onClick={() => setPage(Math.max(1, page - 1))}>Prev</button>
-//       <button onClick={() => setPage(page + 1)}>Next</button>
-//       {query.data.map(({_id, name, imageUrl, films, tvShows, enemies, allies, videoGames, shortFilms, parkAttractions}) => (
-//         <div key={_id} style={{marginTop: '10rem'}}>
-//           <h2>{name}</h2>
-//           <img src={imageUrl} alt={name} />
-//           <div><strong>Films:</strong> {films.join(', ')}</div>
-//           <div><strong>TV Shows:</strong> {tvShows.join(', ')}</div>
-//           <div><strong>Enemies:</strong> {enemies.join(', ')}</div>
-//           <div><strong>Allies:</strong> {allies.join(', ')}</div>
-//           <div><strong>Video Games:</strong> {videoGames.join(', ')}</div>
-//           <div><strong>Short Films:</strong> {shortFilms.join(', ')}</div>
-//           <div><strong>parkAttractions:</strong> {parkAttractions.join(', ')}</div>
-//         </div>
-//       ))}
-//     </div>
-//   )
-// }
-
 export default App;
-
-
-
-
-
 //   const query = useQuery({
 //     queryKey: ['page'],
 //     queryFn: () => {
